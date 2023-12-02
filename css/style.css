@@ -1,0 +1,106 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do Corpo da Página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Estilo da Navbar */
+.navbar {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* Estilo do Banner com Animação */
+.banner {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+    animation: bannerAnimation 2s linear infinite;
+}
+
+@keyframes bannerAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Estilo das Seções */
+section {
+    padding: 80px 0;
+}
+
+/* Estilo dos Títulos de Seção */
+h2 {
+    color: #007bff;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo da Tabela */
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos Cards */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo do Carrossel */
+.carousel {
+    margin-bottom: 40px;
+}
+
+/* Estilo do Modal */
+.modal {
+    text-align: center;
+}
+
+.modal-content {
+    max-width: 100%;
+}
+
+/* Estilo das Figuras e Textos Adicionais */
+/* Adapte conforme necessário */
+
+/* Transições Suaves */
+.transition {
+    transition: all 0.3s ease;
+}
