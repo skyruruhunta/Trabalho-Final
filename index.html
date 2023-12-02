@@ -3,108 +3,267 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Blog IFRS</title>
-
-    <!-- Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-    <!-- Seu CSS Personalizado -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <title>Loja de Jogos</title>
 </head>
 
 <body>
+    <header>
+        <h1>IFJogos</h1>
+        <img src="img/banner.jpg" alt="Banner da Loja">
+    </header>
 
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">Blog IFRS</a>
+        <a class="navbar-brand" href="#">IFJogos</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#section1">Seção 1</a></li>
-                <li class="nav-item"><a class="nav-link" href="#section2">Carrossel</a></li>
-                <li class="nav-item"><a class="nav-link" href="#section3">Modal</a></li>
-                <li class="nav-item"><a class="nav-link" href="#section4">Seção 4</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section1">Página Inicial</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section2">Destaque</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section3">Outros Jogos em Destaque</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section4">Produtos</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Banner com Animação -->
-    <header class="banner">
-        <!-- Conteúdo do Banner -->
-    </header>
+    <main>
+        <section id="section1">
+            <h2>Bem-vindo ao IFJogos</h2>
+            <p>Oferecemos uma ampla seleção de jogos para todos os gostos, aqui estão nossos destaques do mês.</p>
+        </section>
 
-    <!-- Seção 1 -->
-    <section id="section1">
-        <h2>Seção 1</h2>
-        <!-- Conteúdo da Seção 1 -->
-    </section>
-
-    <!-- Seção 2 (Carrossel) -->
-    <section id="section2">
-        <h2>Carrossel</h2>
-        <div id="carouselExample" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="caminho-para-imagem1.jpg" class="d-block w-100" alt="Imagem 1">
-                </div>
-                <div class="carousel-item">
-                    <img src="caminho-para-imagem2.jpg" class="d-block w-100" alt="Imagem 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="caminho-para-imagem3.jpg" class="d-block w-100" alt="Imagem 3">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
+        <section id="section2">
+            <h3>Destaque</h3>
+            <a href="https://store.steampowered.com/app/1501750/Lords_of_the_Fallen/" target="_blank">
+                <img src="img/jogo-destaque.jpg" alt="Jogo Destaque">
             </a>
-            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
-        </div>
-    </section>
 
-    <!-- Seção 3 (Modal) -->
-    <section id="section3">
-        <h2>Modal</h2>
-        <div class="card">
-            <img src="caminho-para-imagem1.jpg" class="card-img-top" alt="Imagem 1" data-toggle="modal"
-                data-target="#modalImagem1">
-            <div class="card-body">
-                <p class="card-text">Descrição da Imagem 1</p>
-            </div>
-        </div>
+            <p>The Lords of the Fallen é um reboot do título de 2014 que foi anunciado durante a Gamescom 2022.
+                Entre as novidades do game estão a adição de um modo cooperativo online,
+                melhorias gráficas por meio da Unreal Engine 5 e um cenário cinco vezes maior em relação ao original.
+                Na trama, os jogadores testemunham a ressurreição do deus demônio Adyr, que retorna após uma eternidade.
+            </p>
+        </section>
 
-        <!-- Modal -->
-        <div class="modal fade" id="modalImagem1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <img src="caminho-para-imagem1.jpg" class="img-fluid" alt="Imagem 1">
+        <section id="section3">
+            <h3>Outros Jogos em Destaque</h3>
+            <figure>
+                <a href="https://store.ubisoft.com/ofertas/assassins-creed-mirage/62ea4f8e09372571f2736a71.html?lang=pt_BR"
+                    target="_blank">
+                    <img src="img/jogo3.jpg" alt="Jogo 3">
+                </a>
+                <figcaption>Vivencie a história de Basim, um astucioso ladino de rua que está em busca de respostas e de
+                    justiça enquanto percorre as ruas agitadas da Bagdá do século IX,
+                    se tornando um Mestre Assassino mortal e transformando seu destino de maneiras que ele jamais
+                    imaginou.</figcaption>
+            </figure>
+            <figure>
+                <a href="https://store.steampowered.com/app/2138330/Cyberpunk_2077_Phantom_Liberty/" target="_blank">
+                    <img src="img/jogo4.jpg" alt="Jogo 4">
+                </a>
+                <figcaption>Phantom Liberty é uma nova aventura de suspense e espionagem para Cyberpunk 2077.
+                    Quando a aeronave orbital da presidente dos Novos Estados Unidos da América é abatida sobre o
+                    distrito mais letal de Night City, só há uma pessoa que pode salvá-la: você.</figcaption>
+            </figure>
+        </section>
+
+        <section id="section4">
+            <h2>Outros lançamentos de Outubro</h2>
+
+            <div class="card-deck">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="img/jogoP1.jpg" class="card-img-top" alt="Jogo 1" data-toggle="modal"
+                        data-target="#modal1">
+                    <div class="card-body">
+                        <h5 class="card-title">Mortal Kombat 1</h5>
+                        <p>O modo de história que define o gênero de Mortal Kombat continua...</p>
+                        <a href="https://store.steampowered.com/app/1971870/Mortal_Kombat_1/" target="_blank"
+                            class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="img/jogoP2.jpg" class="card-img-top" alt="Jogo 2" data-toggle="modal"
+                        data-target="#modal2">
+                    <div class="card-body">
+                        <h5 class="card-title">Forza Motorsport</h5>
+                        <p>Experimente uma simulação de ponta com visuais fotorrealistas...</p>
+                        <a href="https://store.steampowered.com/app/2440510/Forza_Motorsport/" target="_blank"
+                            class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <img src="img/jogoP3.jpg" class="card-img-top" alt="Jogo 3" data-toggle="modal"
+                        data-target="#modal3">
+                    <div class="card-body">
+                        <h5 class="card-title">EA SPORTS FC™ 24</h5>
+                        <p>O EA SPORTS FC™ 24 traz o Jogo de Todo Mundo: a experiência mais realista...</p>
+                        <a href="https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/" target="_blank"
+                            class="btn btn-primary">Detalhes</a>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card">
+                    <img src="img/jogoP4.jpg" class="card-img-top" alt="Jogo 4" data-toggle="modal"
+                        data-target="#modal4">
+                    <div class="card-body">
+                        <h5 class="card-title">Tribe Primitive Builder</h5>
+                        <p>Explore a misteriosa ilha dos exilados. Reúna recursos, crie, construa um assentamento...</p>
+                        <a href="https://store.steampowered.com/app/1059900/Tribe_Primitive_Builder/" target="_blank"
+                            class="btn btn-primary">Detalhes</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Seção 4 -->
-    <section id="section4">
-        <h2>Seção 4</h2>
-        <!-- Conteúdo da Seção 4 -->
-    </section>
+            <!-- Modais -->
+            <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modalLabel1"
+                aria-hidden="true">
+                <!-- Modal 1 -->
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLabel1">Mortal Kombat 1</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/jogoP1.jpg" class="img-fluid" alt="Jogo 1">
+                            <p>O modo de história que define o gênero de Mortal Kombat continua...</p>
+                            <!-- Adicione mais informações conforme necessário -->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Rodapé -->
+            <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2"
+                aria-hidden="true">
+                <!-- Modal 2 -->
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLabel2">Forza Motorsport</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/jogoP2.jpg" class="img-fluid" alt="Jogo 2">
+                            <p>Experimente uma simulação de ponta com visuais fotorrealistas...</p>
+                            <!-- Adicione mais informações conforme necessário -->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalLabel3"
+                aria-hidden="true">
+                <!-- Modal 3 -->
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLabel3">EA SPORTS FC™ 24</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/jogoP3.jpg" class="img-fluid" alt="Jogo 3">
+                            <p>O EA SPORTS FC™ 24 traz o Jogo de Todo Mundo: a experiência mais realista...</p>
+                            <!-- Adicione mais informações conforme necessário -->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modalLabel4"
+                aria-hidden="true">
+                <!-- Modal 4 -->
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLabel4">Tribe Primitive Builder</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/jogoP4.jpg" class="img-fluid" alt="Jogo 4">
+                            <p>Explore a misteriosa ilha dos exilados. Reúna recursos, crie, construa um assentamento...
+                            </p>
+                            <!-- Adicione mais informações conforme necessário -->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="section6">
+            <h2>Mais Destaques</h2>
+            <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/slide1.jpg" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slide2.jpg" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slide3.jpg" class="d-block w-100" alt="Slide 3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </section>
+
+
+    </main>
+
     <footer>
-        <!-- Conteúdo do Rodapé -->
+        <address>
+            <p>Dados de Contato:</p>
+            <p>Telefone: (53) 3233-8603</p>
+            <p>E-mail: comunicacao@riogrande.ifrs.edu.br</p>
+            <p>Endereço: R. Eng. Alfredo Huck, 475 - Centro, Rio Grande - RS, 96201-460</p>
+        </address>
+        <div class="redes-sociais">
+            <a href="https://www.facebook.com/ifrsriogrand/?locale=pt_BR" target="_blank">Facebook</a>
+            <a href="https://twitter.com/IFRSOficial" target="_blank">Twitter</a>
+        </div>
     </footer>
 
-    <!-- Bootstrap JS e Scripts Adicionais -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

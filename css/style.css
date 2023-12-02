@@ -1,106 +1,99 @@
-/* Reset de Estilos */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilo do Corpo da Página */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #343a40;
+    font-family: 'Arimo', sans-serif;
+    transition: background-color 0.3s ease-in-out;
 }
 
-/* Estilo da Navbar */
-.navbar {
-    background-color: #007bff;
-    color: #ffffff;
-}
-
-.navbar-brand {
-    font-weight: bold;
-}
-
-.navbar-nav .nav-link {
-    color: #ffffff;
-}
-
-/* Estilo do Banner com Animação */
-.banner {
-    background-color: #007bff;
-    color: #ffffff;
-    padding: 100px 0;
+header {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    animation: bannerAnimation 2s linear infinite;
-}
-
-@keyframes bannerAnimation {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-/* Estilo das Seções */
-section {
-    padding: 80px 0;
-}
-
-/* Estilo dos Títulos de Seção */
-h2 {
-    color: #007bff;
-}
-
-/* Estilo do Rodapé */
-footer {
-    background-color: #007bff;
-    color: #ffffff;
     padding: 20px 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header img {
+    max-width: 100%;
+    animation: fadeIn 2s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+section {
     text-align: center;
+    margin-bottom: 30px;
 }
 
-/* Estilo da Tabela */
-.table {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-/* Estilo dos Cards */
-.card {
-    margin-bottom: 20px;
-    border: 1px solid #dee2e6;
-    border-radius: 4px;
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-/* Estilo do Carrossel */
-.carousel {
-    margin-bottom: 40px;
-}
-
-/* Estilo do Modal */
-.modal {
+figure {
+    padding: 10px;
     text-align: center;
+    margin: 10px;
 }
 
-.modal-content {
+figure img {
     max-width: 100%;
 }
 
-/* Estilo das Figuras e Textos Adicionais */
-/* Adapte conforme necessário */
+figcaption {
+    font-size: 16px;
+}
 
-/* Transições Suaves */
-.transition {
-    transition: all 0.3s ease;
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+address {
+    font-size: 14px;
+}
+
+.redes-sociais {
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
